@@ -124,7 +124,7 @@ header {
 /* Align hero content at the top */
 .hero-content {
   position: absolute;
-  top: 3%; /* Adjust this value to move it further down or closer to the top */
+  top: 25%; /* Adjust this value to move it further down or closer to the top */
   left: 50%;
   transform: translateX(-50%); /* Center horizontally */
   z-index: 2;
