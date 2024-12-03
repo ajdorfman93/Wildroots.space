@@ -74,11 +74,11 @@ $(document).ready(function () {
     var popupBg = $("#" + carouselId + " .popup-bg");
 
     // Fade to 0.5 over 0.5s
-    popupBg.css('opacity', 0.5);
+    popupBg.css('opacity', 0);
 
     // Wait for 0.5s (duration of the transition), then fade back to 1
     setTimeout(function(){
-      popupBg.css('opacity', 1);
+      popupBg.css('opacity', 0.5);
     }, 500);
   }
 
