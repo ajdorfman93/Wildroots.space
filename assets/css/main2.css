@@ -197,6 +197,7 @@ video {
   opacity: 1;
   visibility: visible;
   transition: opacity 0.5s ease;
+  z-index: 1000; /* Ensure popups are above other content */
 }
 
 .popup-bg {
@@ -236,6 +237,7 @@ video {
   width: 375px;
   height: 250px;
   perspective: 1000px;
+	z-index: 999; /* Ensure popups are above other content */
 }
 
 .carousel {
@@ -270,6 +272,7 @@ video {
   position: absolute;
   top: 80px;
   cursor: pointer;
+  z-index: 1000
 }
 .slider--next, .slider--prev {
   position: absolute;
